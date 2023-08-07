@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="../Resources/CSS/sharedStyles.css">
+<link rel="stylesheet" href="Mario Treasure Hunt CSS.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../Resources/JS/sharedFunctions.js"></script> 
+<script src="Mario Treasure Hunt JS.js"></script> 
+
+<html>
+	<head>
+	</head>
+	<body>
+		<div id='preScreen'>
+			<input type='password' autofocus onkeydown='$("#theme")[0].play();' onkeyup="this.value.toLowerCase() === 'mario and yoshi' && showTitle()" placeholder='Password'>
+			<audio controls hidden id='theme'>
+				<source src="Resources/Audio/Super Mario Bros Title Theme.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div id="title" hidden>
+			<span onclick='transition(this);' class='startMSG'>Click here to begin your adventure</span>
+			<div id='con1' class='container'></div>
+			<div id='con2' class='container'></div>
+			<div id='con3' class='container'></div>
+			<div id='con4' class='container'></div>
+			<div id='con5' class='container'></div>
+		</div>
+	</body>
+</html>

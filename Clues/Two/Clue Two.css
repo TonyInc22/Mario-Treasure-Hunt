@@ -1,0 +1,90 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#mario {
+	background-image: url('Resources/Images/Mario Run Frames.png');
+	background-size: cover;
+	height: calc(32px * 4);
+	width: calc(16px * 4);
+	animation: none;
+	position: absolute;
+	left: calc(50% - 32px);
+	top: 76%;
+	background-position: -192px;
+	z-index: 5;
+}
+
+@keyframes walk {
+	0%, 100% {
+		background-position: 0px;
+	}
+	50% {
+		background-position: calc(-48px  * 4);
+	}
+}
+
+#lvlBackground {
+	background-image: url('Resources/Images/Donut Planes Background.png');
+	height: 100%;
+	width: calc(5120px * 3) !important;
+	background-size: cover;
+	background-position: 0px;
+}
+
+.coin {
+	background-image: url('Resources/Images/Coin.png');
+	background-size: cover;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+}
+.coin:hover {
+	cursor: pointer;
+}
+
+#coin1 {
+	bottom: 600px;
+	left: calc(50% - 30px);
+}
+#coin2 {
+	right: -60px;
+	bottom: 80%;
+}
+#coin3 {
+	bottom: calc(50% - 30px);
+	left: calc(50% - 30px);
+	transition: all 5s;
+}
+#coin4 {
+	top: calc(76% + 14px);
+	left: calc(50% - 30px);
+	transition: all 5s;
+}
+#coin5 {
+	left: calc(50% - 30px);
+	top: 65%;
+}
+
+@keyframes coinFlight {
+	0%, 100% {
+		right: -60px;
+		top: 5%;
+	}
+	25%, 75% {
+		right: calc(100% + 60px);
+		top: 15%;
+	}
+	50% {
+		right: -60px;
+		top: 25%;
+	}
+}

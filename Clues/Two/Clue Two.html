@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="../../Resources/CSS/sharedStyles.css">
+<link rel="stylesheet" href="Clue Two.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../../Resources/JS/sharedFunctions.js"></script> 
+<script src="Clue Two.js"></script> 
+
+<html>
+	<body>
+		<audio controls hidden id='theme'>
+			<source src="Resources/Audio/Donut Plains.mp3" type="audio/mpeg">
+		</audio>
+		<div id='container'>
+			<div id='lvlBackground'></div>
+			<div onclick='$("#coin4").css("top","65%");' id='mario'></div>
+			<div onclick='$("#coin3").css("bottom","60%");' class='clueMSG'>CLUE 2</div>
+			<div onclick='coinClick(this.id);' class='coin' id='coin1' hidden></div>
+			<div onclick='coinClick(this.id);' class='coin' id='coin2'></div>
+			<div onclick='coinClick(this.id);' class='coin' id='coin3'></div>
+			<div onclick='coinClick(this.id);' class='coin' id='coin4'></div>
+			<div onclick='coinClick(this.id);' class='coin' id='coin5' hidden></div>
+		</div>
+	</body>
+</html>

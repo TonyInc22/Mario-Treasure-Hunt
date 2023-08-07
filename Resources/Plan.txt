@@ -1,0 +1,49 @@
+Gift List:
+10 Pack Super Mario Wonderball
+Nintendo Switch Mario Choose One Bundle
+Wooden Escape Puzzle
+Steelers Bucket Hat
+2x Jack Links Maple Smoked Bacon Jerky
+XXXTentacion Vinyl - 17
+
+CLUE ONE
+
+gift: 2x Jack Links Maple Smoked Bacon Jerky
+text: Mario was forced to leave his job behind to save princess peach and the mushroom kingdom from the evil king bowser and his army of koopas.
+location: Tied to a string that is tied to the shower curtain bar. Hidden behind the shower curtains
+code: mario
+
+CLUE TWO
+
+gift: XXXTentacion Vinyl - 17
+text: The mario franchise is famous for fantastic music. Take the Donut Plains theme for example... If you owned a copy where would you keep it?
+location: Where you would place 'Donut Plains' in dad's vinyl collection.
+code: luigi 
+
+CLUE THREE
+
+gift: 10 Pack Super Mario Wonderball
+text: Mario's origin is from a place known for many talents. One of them being a new olympic sport they currently dominate.
+location: In my climbing bag
+code: peach 
+
+CLUE FOUR
+
+gift: Steelers Bucket Hat
+text: 
+location: 
+code: mario 
+
+CLUE FIVE
+
+gift: Wooden Escape Puzzle
+text: 
+location:
+code: mario 
+
+CLUE SIX
+
+gift: Nintendo Switch Mario Choose One Bundle
+text: 
+location:
+code: mario 

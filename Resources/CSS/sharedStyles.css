@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'marioFont';
+	src: url('../Fonts/SuperMario256.ttf');
+}
+
+:root {
+	--MARIO_BLUE: #009bd9;
+	--MARIO_RED: #e62310;
+	--MARIO_GREEN: #44af35;
+	--MARIO_YELLOW: #fccf00;
+}
+
+.clueMSG {
+	position: absolute;
+	z-index: 10;
+	background-color: var(--MARIO_GREEN);
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'marioFont' !important;
+	padding: 25px;
+	color: var(--MARIO_BLUE);
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	border: 2px solid black;
+	outline: 10px solid var(--MARIO_YELLOW);
+	outline-style: dotted;
+	left: calc(50% - 102px);
+	top: calc(50% - 47px);
+}
+
+.clue {
+	border: 5px solid black;
+	z-index: 10;
+	width: 450px;
+	height: 250px !important;
+	position: absolute;
+	height: auto;
+	text-align: Center;
+	background: white;
+	bottom: -350px;
+	left: calc(50% - 275px);
+	transition: all 3s;
+	background-image: url("../Images/Clue Background.jpg");
+	padding: 50px;
+}
+.clue.reveal {
+	bottom: calc(50% - 175px) !important;
+}
+#clueText {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 5s;
+	font-family: marioFont;
+	font-size: 30px;
+	color: var(--MARIO_BLUE);
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

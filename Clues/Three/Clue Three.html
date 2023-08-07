@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="../../Resources/CSS/sharedStyles.css">
+<link rel="stylesheet" href="Clue Three.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../../Resources/JS/sharedFunctions.js"></script> 
+<script src="Clue Three.js"></script> 
+
+<html>
+	<body>
+		<div id='container'>
+			<table hidden>
+				<thead><tr><td>LIVES</td></tr></thead>
+				<tbody></tbody>
+			</table>
+			<div id='nextNote' hidden></div>
+			<ul class="set" id='octave1'>
+				<li onclick='keyPress(this);' class="white b"></li>
+				<li onclick='keyPress(this);' class="black as"></li>
+				<li onclick='keyPress(this);' class="white a"></li>
+				<li onclick='keyPress(this);' class="black gs"></li>
+				<li onclick='keyPress(this);' class="white g"></li>
+				<li onclick='keyPress(this);' class="black fs"></li>
+				<li onclick='keyPress(this);' class="white f"></li>
+				<li onclick='keyPress(this);' class="white e"></li>
+				<li onclick='keyPress(this);' class="black ds"></li>
+				<li onclick='keyPress(this);' class="white d"></li>
+				<li onclick='keyPress(this);' class="black cs"></li>
+				<li onclick='keyPress(this);' class="white c"></li>
+			</ul>
+			<ul class="set" id='octave2'>
+				<li onclick='keyPress(this);' class="white b"></li>
+				<li onclick='keyPress(this);' class="black as"></li>
+				<li onclick='keyPress(this);' class="white a"></li>
+				<li onclick='keyPress(this);' class="black gs"></li>
+				<li onclick='keyPress(this);' class="white g"></li>
+				<li onclick='keyPress(this);' class="black fs"></li>
+				<li onclick='keyPress(this);' class="white f"></li>
+				<li onclick='keyPress(this);' class="white e"></li>
+				<li onclick='keyPress(this);' class="black ds"></li>
+				<li onclick='keyPress(this);' class="white d"></li>
+				<li onclick='keyPress(this);' class="black cs"></li>
+				<li onclick='keyPress(this);' class="white c"></li>
+			</ul>
+			<button onclick='startGame()'>START</button>
+			<div class='clueMSG'>CLUE 3</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+*:not(.clue) {
+  box-sizing:border-box
+}
+#container {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('Resources/Images/BackgroundImg.jpg');
+}
+.gameIcon {
+	width: 12.5%;
+	height: 30%;
+	cursor: pointer;
+	position: absolute;
+	text-align: center;
+	font-family: 'marioFont';
+	font-size: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#TwoTruthsOneLie {
+	left: 43.75%;
+	top: 5%;
+	background-image: url('Resources/Images/TwoTruthsOneLie.png');
+}
+#GuessTheGame {
+	left: 43.75%;
+	top: 65%;
+	background-image: url('Resources/Images/GuessTheGame.png');
+}
+#WhoDidIt {
+	left: 10%;
+	top: 35%;
+	background-image: url('Resources/Images/WhoDidIt.png');
+}
+#MarioOrNot {
+	left: 77.5%;
+	top: 35%;
+	background-image: url('Resources/Images/MarioOrNot.png');
+}
